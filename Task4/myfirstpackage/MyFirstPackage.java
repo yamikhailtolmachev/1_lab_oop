@@ -1,4 +1,6 @@
-class MySecondClass {
+package myfirstpackage;
+
+public class MyFirstPackage {
 	// два приватных поля типа int
 	private int p1, p2;
 	
@@ -18,7 +20,7 @@ class MySecondClass {
 	}
 	
 	// конструктор, создающий объект и инициализирующий значения полей
-	public MySecondClass(int p1, int p2) {
+	public MyFirstPackage(int p1, int p2) {
 		this.p1 = p1;
 		this.p2 = p2;
 	}
